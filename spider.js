@@ -11,7 +11,7 @@ request("http://www.fifa.com/worldcup/teams/index.html", function (error, respon
         var arr = [];
         //load data
         var $ = cheerio.load(body);
-        /* 1.find all element which class name is 'team-nam'
+        /* 1.find all element which class name is 'team-name'
            2.Iterate these elements, and save the text inside the element into an array
            3.$(this) is equal to elm
          */
